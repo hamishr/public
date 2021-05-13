@@ -1,0 +1,14 @@
+version: "3.4"
+
+services:
+  rdesktop:
+    image: ghcr.io/linuxserver/rdesktop
+    container_name: rdesktop
+    privileged: true
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/London
+    ports:
+      - 3389:3389
+    restart: unless-stopped
