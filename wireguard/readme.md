@@ -1,5 +1,5 @@
 # Installing Wireguard
-##Vultr
+## Vultr
 Add the startup-script.sh file to startup scripts
 Add the SSH key
 Deploy a Docker new server from the marketplace, selecting the Install Wireguard script and SSH key you just added
