@@ -16,7 +16,7 @@ services:
       - INTERNAL_SUBNET=10.13.13.0
       - ALLOWEDIPS=0.0.0.0/0
     volumes:
-      - .config/appdata/config:/config
+      - .config/appdata/wireguard:/config
       - /lib/modules:/lib/modules
     ports:
       - 51820:51820/udp
