@@ -11,7 +11,7 @@ Login to the server and open the conf file (replace `peerX` with the peer number
 nano .config/appdata/wireguard/peerX/peerX.conf
 ```
 ## Mobile
-Login to the server and run (replace `peerX` with the peer number)
+Login to the server and run the following command to generate a QR code (replace `peerX` with the peer number)
 ```
 docker exec -it wireguard /app/show-peer X
 ```
